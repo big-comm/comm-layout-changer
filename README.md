@@ -1,10 +1,8 @@
-# pkgbuild-template-translator
-
-Template for Arch Linux packages with automatic translation support.
+# themes-gui
 
 ## Description
 
-Package description
+an app to apply pre-defined desktop layouts
 
 ## License
 
