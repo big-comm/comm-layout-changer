@@ -1,0 +1,102 @@
+[/]
+alttab-switcher-delay=100
+app-menu-icon-name='comm-menu'
+enabled-applets=['panel1:center:0:grouped-window-list@cinnamon.org:2', 'panel1:right:2:systray@cinnamon.org:3', 'panel1:right:4:xapp-status@cinnamon.org:4', 'panel1:right:5:notifications@cinnamon.org:5', 'panel1:right:6:printers@cinnamon.org:6', 'panel1:right:7:removable-drives@cinnamon.org:7', 'panel1:right:8:keyboard@cinnamon.org:8', 'panel1:right:9:favorites@cinnamon.org:9', 'panel1:right:10:network@cinnamon.org:10', 'panel1:right:11:sound@cinnamon.org:11', 'panel1:right:12:power@cinnamon.org:12', 'panel1:right:13:calendar@cinnamon.org:13', 'panel1:right:14:cornerbar@cinnamon.org:14', 'panel1:left:0:Cinnamenu@json:15', 'panel1:left:1:expo@cinnamon.org:18']
+next-applet-id=19
+panel-edit-mode=false
+panel-zone-icon-sizes='[{"panelId": 1, "left": -1, "center": 0, "right": 24}]'
+panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 28, "center": 28, "right": 16}]'
+panel-zone-text-sizes='[{"panelId":1,"left":0,"center":0,"right":0}]'
+panels-autohide=['1:false', '2:false']
+panels-enabled=['1:0:bottom']
+panels-height=['1:40']
+panels-hide-delay=['1:0', '2:0']
+panels-show-delay=['1:0', '2:0']
+
+[cinnamon-session]
+quit-time-delay=60
+
+[desktop/a11y/applications]
+screen-keyboard-enabled=false
+screen-reader-enabled=false
+
+[desktop/a11y/mouse]
+dwell-click-enabled=false
+dwell-threshold=10
+dwell-time=1.2
+secondary-click-enabled=false
+secondary-click-time=1.2
+
+[desktop/background]
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/community/default-owl.jpg'
+
+[desktop/background/slideshow]
+delay=15
+image-source='directory:///usr/share/backgrounds/community'
+
+[desktop/interface]
+cursor-theme='Bibata-Modern-Classic'
+font-name='Noto Sans Nerd Font Medium 11'
+gtk-theme='Big-Orange'
+icon-theme='bigicons-papient-dark'
+text-scaling-factor=1.0
+toolkit-accessibility=false
+
+[desktop/keybindings]
+custom-list=['custom0']
+
+[desktop/keybindings/custom-keybindings/custom0]
+binding=['Print']
+command='gnome-screenshot --interactive'
+name='ScreenShot Interactive'
+
+[desktop/keybindings/media-keys]
+screenshot=@as []
+
+[desktop/notifications]
+bottom-notifications=true
+notification-duration=4
+
+[desktop/screensaver]
+idle-activation-enabled=false
+lock-enabled=false
+
+[desktop/sound]
+event-sounds=false
+
+[desktop/wm/preferences]
+min-window-opacity=30
+num-workspaces=3
+titlebar-font='Noto Sans Nerd Font Medium 11'
+workspace-names=@as []
+
+[gestures]
+swipe-down-2='PUSH_TILE_DOWN::end'
+swipe-down-3='TOGGLE_OVERVIEW::end'
+swipe-down-4='VOLUME_DOWN::end'
+swipe-left-2='PUSH_TILE_LEFT::end'
+swipe-left-3='WORKSPACE_NEXT::end'
+swipe-left-4='WINDOW_WORKSPACE_PREVIOUS::end'
+swipe-right-2='PUSH_TILE_RIGHT::end'
+swipe-right-3='WORKSPACE_PREVIOUS::end'
+swipe-right-4='WINDOW_WORKSPACE_NEXT::end'
+swipe-up-2='PUSH_TILE_UP::end'
+swipe-up-3='TOGGLE_EXPO::end'
+swipe-up-4='VOLUME_UP::end'
+tap-3='MEDIA_PLAY_PAUSE::end'
+
+[launcher]
+check-frequency=300
+memory-limit=2048
+memory-limit-enabled=false
+
+[muffin]
+draggable-border-width=10
+unredirect-fullscreen-windows=true
+
+[settings-daemon/plugins/color]
+night-light-last-coordinates=(-8.4600000000000009, -63.539999999999999)
+
+[theme]
+name='Big-Orange'

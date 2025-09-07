@@ -1,0 +1,46 @@
+[Desktop Entry]
+Name=Big Community Desktop Themes GUI
+Name[pt]=GUI de Temas de Área de Trabalho da Big Community
+Name[es]=GUI de Temas de Escritorio de Big Community
+Name[fr]=GUI de Thèmes de Bureau de Big Community
+Name[de]=Big Community Desktop-Themen GUI
+Name[it]=GUI Temi Desktop Big Community
+Name[ru]=GUI тем рабочего стола Big Community
+Name[zh_CN]=Big Community 桌面主题 GUI
+GenericName=Desktop Theme Switcher
+GenericName[pt]=Alternador de Temas de Área de Trabalho
+GenericName[es]=Alternador de Temas de Escritorio
+GenericName[fr]=Sélecteur de Thèmes de Bureau
+GenericName[de]=Desktop-Theme-Switcher
+GenericName[it]=Selettore di Temi Desktop
+GenericName[ru]=Переключатель тем рабочего стола
+GenericName[zh_CN]=桌面主题切换器
+Comment=A GUI for switching desktop layouts and themes for GNOME, Cinnamon, and XFCE
+Comment[pt]=Uma GUI para alternar layouts e temas da área de trabalho para GNOME, Cinnamon e XFCE
+Comment[es]=Una GUI para cambiar diseños y temas de escritorio para GNOME, Cinnamon y XFCE
+Comment[fr]=Une GUI pour changer les dispositions et thèmes du bureau pour GNOME, Cinnamon et XFCE
+Comment[de]=Eine GUI zum Wechseln von Desktop-Layouts und -Themen für GNOME, Cinnamon und XFCE
+Comment[it]=Una GUI per cambiare layout e temi del desktop per GNOME, Cinnamon e XFCE
+Comment[ru]=Графический интерфейс для переключения макетов и тем рабочего стола для GNOME, Cinnamon и XFCE
+Comment[zh_CN]=用于切换 GNOME、Cinnamon 和 XFCE 桌面布局和主题的图形界面
+Exec=python3 /usr/share/gnome-layouts/gnome-themes.py
+Terminal=false
+Icon=preferences-desktop-theme
+Type=Application
+Categories=Settings;DesktopSettings;GNOME;GTK;
+Keywords=desktop;theme;layout;switcher;gnome;cinnamon;xfce;gui;
+Keywords[pt]=área de trabalho;tema;layout;alternador;gnome;cinnamon;xfce;interface;
+Keywords[es]=escritorio;tema;diseño;alternador;gnome;cinnamon;xfce;interfaz;
+Keywords[fr]=bureau;thème;disposition;sélecteur;gnome;cinnamon;xfce;interface;
+Keywords[de]=desktop;thema;layout;wechsler;gnome;cinnamon;xfce;gui;
+Keywords[it]=desktop;tema;layout;selettore;gnome;cinnamon;xfce;gui;
+Keywords[ru]=рабочий стол;тема;макет;переключатель;gnome;cinnamon;xfce;gui;
+Keywords[zh_CN]=桌面;主题;布局;切换器;gnome;cinnamon;xfce;图形界面;
+StartupNotify=true
+StartupWMClass=org.bigCommunity.comm-layout-switcher-gnome
+
+Actions=SoftwareRender;
+
+[Desktop Action SoftwareRender]
+Name=Software Render
+Exec=SoftwareRender python3 /usr/share/gnome-layouts/gnome-themes.py

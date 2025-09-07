@@ -1,7 +1,7 @@
 # Maintainer: Tales A. Mendonça <talesam@gmail.com>
 
-pkgname=pkgbuild-template-translate
-pkgdesc="Package template for BigCommunity"
+pkgname=gnome-themes
+pkgdesc="app to apply pre-customized desktop layouts"
 # Uncomment and edit the following lines as needed
 #depends=('')
 #makedepends=('')
