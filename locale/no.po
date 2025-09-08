@@ -17,11 +17,14 @@ msgstr ""
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+<<<<<<< HEAD
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
 # File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 144
 # File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 261
 # File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 828
+=======
+>>>>>>> 2746807e73d3f2e61bc4d116a105e8c70f57feef
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 204
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 1180
 # File: gnome-layouts/gnome-themes.py, line: 204
@@ -32,13 +35,17 @@ msgstr "vindu_tittel"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+<<<<<<< HEAD
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
 # File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 219
+=======
+>>>>>>> 2746807e73d3f2e61bc4d116a105e8c70f57feef
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 277
 # File: gnome-layouts/gnome-themes.py, line: 277
 #: NEEDS WORK
 msgid "about"
+<<<<<<< HEAD
 msgstr "om"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
@@ -46,6 +53,12 @@ msgstr "om"
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
 # File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 220
+=======
+msgstr "om om"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+>>>>>>> 2746807e73d3f2e61bc4d116a105e8c70f57feef
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 278
 # File: gnome-layouts/gnome-themes.py, line: 278
 #: NEEDS WORK
@@ -54,11 +67,14 @@ msgstr "avslutt"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+<<<<<<< HEAD
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
 # File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 268
 # File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 363
 # File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 832
+=======
+>>>>>>> 2746807e73d3f2e61bc4d116a105e8c70f57feef
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 327
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 1184
 # File: gnome-layouts/gnome-themes.py, line: 327
@@ -69,6 +85,7 @@ msgstr "velg_layout"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+<<<<<<< HEAD
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
 # File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 325
@@ -156,6 +173,8 @@ msgstr "feil_ved_tilføyelse"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+=======
+>>>>>>> 2746807e73d3f2e61bc4d116a105e8c70f57feef
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 330
 # File: gnome-layouts/gnome-themes.py, line: 330
 #: NEEDS WORK
@@ -172,6 +191,17 @@ msgstr "velg_gtk_tema"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+<<<<<<< HEAD
+=======
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 388
+# File: gnome-layouts/gnome-themes.py, line: 388
+#: NEEDS WORK
+msgid "apply"
+msgstr "bruk"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+>>>>>>> 2746807e73d3f2e61bc4d116a105e8c70f57feef
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 457
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 485
 # File: gnome-layouts/gnome-themes.py, line: 457
@@ -182,6 +212,17 @@ msgstr "oppdatering"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+<<<<<<< HEAD
+=======
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 591
+# File: gnome-layouts/gnome-themes.py, line: 591
+#: NEEDS WORK
+msgid "description_layout"
+msgstr "beskrivelse_layout"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+>>>>>>> 2746807e73d3f2e61bc4d116a105e8c70f57feef
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 594
 # File: gnome-layouts/gnome-themes.py, line: 594
 #: NEEDS WORK
@@ -198,6 +239,57 @@ msgstr "beskrivelse_gtk"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+<<<<<<< HEAD
+=======
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 678
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 781
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 892
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 916
+# File: gnome-layouts/gnome-themes.py, line: 678
+# File: gnome-layouts/gnome-themes.py, line: 781
+# File: gnome-layouts/gnome-themes.py, line: 892
+# File: gnome-layouts/gnome-themes.py, line: 916
+#: NEEDS WORK
+msgid "error"
+msgstr "feil"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 746
+# File: gnome-layouts/gnome-themes.py, line: 746
+#: NEEDS WORK
+msgid "applying"
+msgstr "bruker"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 751
+# File: gnome-layouts/gnome-themes.py, line: 751
+#: NEEDS WORK
+msgid "error_config"
+msgstr "feil_config"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 775
+# File: gnome-layouts/gnome-themes.py, line: 775
+#: NEEDS WORK
+msgid "success"
+msgstr "suksess"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 777
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 779
+# File: gnome-layouts/gnome-themes.py, line: 777
+# File: gnome-layouts/gnome-themes.py, line: 779
+#: NEEDS WORK
+msgid "error_applying"
+msgstr "feil_ved_tilføyelse"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+>>>>>>> 2746807e73d3f2e61bc4d116a105e8c70f57feef
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 860
 # File: gnome-layouts/gnome-themes.py, line: 860
 #: NEEDS WORK
@@ -210,7 +302,11 @@ msgstr "bruker_shell"
 # File: gnome-layouts/gnome-themes.py, line: 886
 #: NEEDS WORK
 msgid "success_shell"
+<<<<<<< HEAD
 msgstr "suksess_skall"
+=======
+msgstr "suksess_skal"
+>>>>>>> 2746807e73d3f2e61bc4d116a105e8c70f57feef
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
