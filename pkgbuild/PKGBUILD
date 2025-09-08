@@ -1,12 +1,12 @@
-# Maintainer: Ari Novais <floatingfloatskies@protonmail.com>
-# Contributor: Tales A. Mendonça <talesam@gmail.com>
+# Contributor: Ari Novais <floatingfloatskies@protonmail.com>
+# Maintainer: Tales A. Mendonça <talesam@gmail.com>
 pkgname=comm-layout-changer
 pkgdesc="App to apply pre-customized desktop layouts for GNOME, Cinnamon, and XFCE"
 pkgver=1.0.0
 pkgrel=1
 arch=('any')
 license=('MIT')
-url="https://github.com/big-comm/${pkgname}"
+url="https://github.com/big-comm/comm-layout-changer"
 depends=('python' 'python-gobject' 'python-cairo' 'libadwaita' 'dconf' 'hicolor-icon-theme')
 makedepends=('git' 'python-setuptools')
 optdepends=('gnome-shell: for GNOME desktop support'
