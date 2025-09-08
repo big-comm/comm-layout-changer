@@ -1,19 +1,20 @@
-# Maintainer: Tales A. Mendonça <talesam@gmail.com>
-
-pkgname=gnome-themes
-pkgdesc="app to apply pre-customized desktop layouts"
-# Uncomment and edit the following lines as needed
-#depends=('')
-#makedepends=('')
-#optdepends=('')
-#conflicts=('')
-#provides=('')
-#replaces=('')
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
+# Maintainer: Ari Novais <floatingfloatskies@protonmail.com>
+# Contributor: Tales A. Mendonça <talesam@gmail.com>
+pkgname=comm-layout-changer
+pkgdesc="App to apply pre-customized desktop layouts for GNOME, Cinnamon, and XFCE"
+pkgver=1.0.0
+pkgrel=1
 arch=('any')
 license=('MIT')
 url="https://github.com/big-comm/${pkgname}"
+depends=('python' 'python-gobject' 'python-cairo' 'libadwaita' 'dconf' 'hicolor-icon-theme')
+makedepends=('git' 'python-setuptools')
+optdepends=('gnome-shell: for GNOME desktop support'
+            'cinnamon: for Cinnamon desktop support'
+            'xfce4-panel: for XFCE desktop support')
+conflicts=()
+provides=()
+replaces=()
 source=("git+${url}.git")
 md5sums=('SKIP')
 
@@ -44,27 +45,48 @@ check() {
 
 package() {
     cd "${srcdir}/${pkgname}"
-
+    
     # Determine the correct source directory
     if [ -d "${pkgname}" ]; then
         srcdir="${srcdir}/${pkgname}/${pkgname}"
     else
         srcdir="${srcdir}/${pkgname}"
     fi
-
-    # Install files
-    local dirs=("usr" "etc" "opt")
-    for dir in "${dirs[@]}"; do
-        if [ -d "${srcdir}/${dir}" ]; then
-            cp -a "${srcdir}/${dir}" "${pkgdir}/"
-        fi
-    done
-
+    
+    # Create directories
+    install -d "${pkgdir}/usr/share/${pkgname}"
+    install -d "${pkgdir}/usr/share/applications"
+    install -d "${pkgdir}/usr/share/icons/hicolor/scalable/apps"
+    install -d "${pkgdir}/usr/share/licenses/${pkgname}"
+    install -d "${pkgdir}/usr/share/doc/${pkgname}"
+    
+    # Install the main application
+    install -Dm755 "${srcdir}/comm-layout-changer.py" "${pkgdir}/usr/share/${pkgname}/"
+    
+    # Install desktop entry
+    install -Dm644 "${srcdir}/comm-layout-changer.desktop" "${pkgdir}/usr/share/applications/"
+    
+    # Install icon
+    install -Dm644 "${srcdir}/icons/comm-layout-changer.svg" "${pkgdir}/usr/share/icons/hicolor/scalable/apps/"
+    
+    # Install layout configuration files
+    if [ -d "${srcdir}/gnome-layouts" ]; then
+        cp -a "${srcdir}/gnome-layouts" "${pkgdir}/usr/share/${pkgname}/"
+    fi
+    
+    if [ -d "${srcdir}/cinnamon-layouts" ]; then
+        cp -a "${srcdir}/cinnamon-layouts" "${pkgdir}/usr/share/${pkgname}/"
+    fi
+    
+    if [ -d "${srcdir}/xfce-layouts" ]; then
+        cp -a "${srcdir}/xfce-layouts" "${pkgdir}/usr/share/${pkgname}/"
+    fi
+    
     # Install license file if present
     if [ -f "LICENSE" ]; then
         install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
     fi
-
+    
     # Install documentation if present
     if [ -f "README.md" ]; then
         install -Dm644 README.md "${pkgdir}/usr/share/doc/${pkgname}/README.md"
