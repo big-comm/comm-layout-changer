@@ -6,7 +6,7 @@ pkgver=1.0.0
 pkgrel=1
 arch=('any')
 license=('MIT')
-url="https://github.com/big-comm/${pkgname}"
+url="https://github.com/big-comm/comm-layout-changer"
 depends=('python' 'python-gobject' 'python-cairo' 'libadwaita' 'dconf' 'hicolor-icon-theme')
 makedepends=('git' 'python-setuptools')
 optdepends=('gnome-shell: for GNOME desktop support'
@@ -14,7 +14,7 @@ optdepends=('gnome-shell: for GNOME desktop support'
             'xfce4-panel: for XFCE desktop support')
 conflicts=()
 provides=()
-replaces=('comm-gnome-themes')
+replaces=()
 source=("git+${url}.git")
 md5sums=('SKIP')
 
