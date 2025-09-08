@@ -23,9 +23,9 @@ Comment[de]=Eine GUI zum Wechseln von Desktop-Layouts und -Themen für GNOME, Ci
 Comment[it]=Una GUI per cambiare layout e temi del desktop per GNOME, Cinnamon e XFCE
 Comment[ru]=Графический интерфейс для переключения макетов и тем рабочего стола для GNOME, Cinnamon и XFCE
 Comment[zh_CN]=用于切换 GNOME、Cinnamon 和 XFCE 桌面布局和主题的图形界面
-Exec=python3 /usr/share/gnome-layouts/gnome-themes.py
+Exec=python3 /usr/share/comm-layout-changer/comm-layout-changer.py
 Terminal=false
-Icon=preferences-desktop-theme
+Icon=/usr/share/comm-layout-changer/icons/comm-layout-changer.svg
 Type=Application
 Categories=Settings;DesktopSettings;GNOME;GTK;
 Keywords=desktop;theme;layout;switcher;gnome;cinnamon;xfce;gui;
@@ -38,9 +38,7 @@ Keywords[ru]=рабочий стол;тема;макет;переключате�
 Keywords[zh_CN]=桌面;主题;布局;切换器;gnome;cinnamon;xfce;图形界面;
 StartupNotify=true
 StartupWMClass=org.bigCommunity.comm-layout-switcher-gnome
-
 Actions=SoftwareRender;
-
 [Desktop Action SoftwareRender]
 Name=Software Render
-Exec=SoftwareRender python3 /usr/share/gnome-layouts/gnome-themes.py
+Exec=python3 /usr/share/comm-layout-changer/comm-layout-changer.py
