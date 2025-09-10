@@ -1,4 +1,5 @@
 # Maintainer: Tales A. Mendonça <talesam@gmail.com>
+<<<<<<< Updated upstream
 
 pkgname=gnome-themes
 pkgdesc="app to apply pre-customized desktop layouts"
@@ -6,6 +7,25 @@ pkgdesc="app to apply pre-customized desktop layouts"
 #depends=('')
 #makedepends=('')
 #optdepends=('')
+=======
+# Contributor: Ari Novais (Float) <floatingfloatskies@protonmail.com>
+
+pkgname=comm-layout-switcher
+pkgdesc="App to apply pre-customized desktop layouts for GNOME"
+# Uncomment and edit the following lines as needed
+depends=(
+    'gtk4'
+    'libadwaita'
+    'python'
+    'python-gobject'
+    'python-reportlab'
+    'python-pyenchant'
+)
+makedepends=('')
+optdepends=(
+    
+)
+>>>>>>> Stashed changes
 #conflicts=('')
 #provides=('')
 #replaces=('')
@@ -13,7 +33,23 @@ pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
 arch=('any')
 license=('MIT')
+<<<<<<< Updated upstream
 url="https://github.com/big-comm/${pkgname}"
+=======
+<<<<<<< Updated upstream
+url="https://github.com/big-comm/comm-layout-changer"
+depends=('python' 'python-gobject' 'python-cairo' 'libadwaita' 'dconf' 'hicolor-icon-theme')
+makedepends=('git' 'python-setuptools')
+optdepends=('gnome-shell: for GNOME desktop support'
+            'cinnamon: for Cinnamon desktop support'
+            'xfce4-panel: for XFCE desktop support')
+conflicts=()
+provides=()
+replaces=()
+=======
+url="https://github.com/big-comm/${pkgname}"
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 source=("git+${url}.git")
 md5sums=('SKIP')
 
