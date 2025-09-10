@@ -1,7 +1,26 @@
 # Contributor: Ari Novais <floatingfloatskies@protonmail.com>
 # Maintainer: Tales A. Mendonça <talesam@gmail.com>
+
+pkgname=comm-layout-switcher
+pkgdesc="App to apply pre-customized desktop layouts for GNOME"
+# Uncomment and edit the following lines as needed
+depends=(
+    'gtk4'
+    'libadwaita'
+    'python'
+    'python-gobject'
+    'python-reportlab'
+    'python-pyenchant'
+)
+#makedepends=('')
+#optdepends=('')
+#conflicts=('')
+#provides=('')
+#replaces=('')
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
 pkgname=comm-layout-changer
-pkgdesc="App to apply pre-customized desktop layouts for GNOME, Cinnamon, and XFCE"
+pkgdesc="App to apply pre-customized desktop layouts for GNOME"
 pkgver=1.0.0
 pkgrel=1
 arch=('any')
