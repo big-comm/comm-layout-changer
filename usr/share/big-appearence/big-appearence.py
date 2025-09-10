@@ -50,8 +50,30 @@ TRANSLATIONS = {
         "shell_theme": "Shell Theme",
         "apply_theme": "Apply Theme",
         "no_themes_found": "No themes found",
-        "license": "MIT License",
-        "gnome_only": "This feature is only available on GNOME"
+        "license": "GPL-3.0 License",
+        "gnome_only": "This feature is only available on GNOME",
+        "user_theme_required": "User Themes extension is required to apply shell themes",
+        "install_user_theme": "Install User Themes Extension",
+        "theme_applied": "{theme_type} theme applied successfully",
+        "error_applying_theme": "Error applying theme: {error}",
+        "cancel": "Cancel",
+        "applying_shell": "Applying shell theme {theme}...",
+        "success_shell": "Successfully applied shell theme {theme}",
+        "error_shell": "Error applying shell theme: {error}",
+        "applying_gtk": "Applying GTK theme {theme}...",
+        "success_gtk": "Successfully applied GTK theme {theme}",
+        "error_gtk": "Error applying GTK theme: {error}",
+        "applying_icons": "Applying icon theme {theme}...",
+        "success_icons": "Successfully applied icon theme {theme}",
+        "error_icons": "Error applying icon theme: {error}",
+        "restart_required": "Restart may be required for changes to take effect",
+        "shell_theme_restart": "Restart GNOME Shell to see the changes",
+        "gtk_theme_restart": "Restart applications to see the changes",
+        "icon_theme_restart": "Restart applications to see the changes",
+        "about_title": "About Big Appearance",
+        "about_description": "Customize your GNOME desktop appearance",
+        "quit_confirm": "Are you sure you want to quit?",
+        "quit_confirm_title": "Quit Big Appearance"
     },
     "es": {
         "window_title": "Big Appearance",
@@ -72,7 +94,7 @@ TRANSLATIONS = {
         "effects_description": "Mejora tu escritorio con efectos visuales",
         "desktop_cube": "Cubo de Escritorio",
         "desktop_cube_description": "Rota tu escritorio en un cubo 3D",
-        "magic_lamp": "Lámpara Mágica",
+        "magic_lamp": "Lámpada Mágica",
         "magic_lamp_description": "Efecto animado de minimización de ventanas",
         "windows_effects": "Efectos de Ventanas",
         "windows_effects_description": "Animaciones adicionales de ventanas",
@@ -86,8 +108,30 @@ TRANSLATIONS = {
         "shell_theme": "Tema del Shell",
         "apply_theme": "Aplicar Tema",
         "no_themes_found": "No se encontraron temas",
-        "license": "Licencia MIT",
-        "gnome_only": "Esta función solo está disponible en GNOME"
+        "license": "Licencia GPL-3.0",
+        "gnome_only": "Esta función solo está disponible en GNOME",
+        "user_theme_required": "Se requiere la extensión User Themes para aplicar temas del shell",
+        "install_user_theme": "Instalar Extensión User Themes",
+        "theme_applied": "Tema {theme_type} aplicado con éxito",
+        "error_applying_theme": "Error al aplicar el tema: {error}",
+        "cancel": "Cancelar",
+        "applying_shell": "Aplicando tema del shell {theme}...",
+        "success_shell": "Tema del shell {theme} aplicado con éxito",
+        "error_shell": "Error al aplicar el tema del shell: {error}",
+        "applying_gtk": "Aplicando tema GTK {theme}...",
+        "success_gtk": "Tema GTK {theme} aplicado con éxito",
+        "error_gtk": "Error al aplicar el tema GTK: {error}",
+        "applying_icons": "Aplicando tema de iconos {theme}...",
+        "success_icons": "Tema de iconos {theme} aplicado con éxito",
+        "error_icons": "Error al aplicar el tema de iconos: {error}",
+        "restart_required": "Es posible que sea necesario reiniciar para que los cambios surtan efecto",
+        "shell_theme_restart": "Reinicie GNOME Shell para ver los cambios",
+        "gtk_theme_restart": "Reinicie las aplicaciones para ver los cambios",
+        "icon_theme_restart": "Reinicie las aplicaciones para ver los cambios",
+        "about_title": "Acerca de Big Appearance",
+        "about_description": "Personaliza la apariencia de tu escritorio GNOME",
+        "quit_confirm": "¿Estás seguro de que quieres salir?",
+        "quit_confirm_title": "Salir de Big Appearance"
     },
     "fr": {
         "window_title": "Big Appearance",
@@ -122,8 +166,30 @@ TRANSLATIONS = {
         "shell_theme": "Thème du Shell",
         "apply_theme": "Appliquer le Thème",
         "no_themes_found": "Aucun thème trouvé",
-        "license": "Licence MIT",
-        "gnome_only": "Cette fonctionnalité n'est disponible que sur GNOME"
+        "license": "Licence GPL-3.0",
+        "gnome_only": "Cette fonctionnalité n'est disponible que sur GNOME",
+        "user_theme_required": "L'extension User Themes est requise pour appliquer les thèmes du shell",
+        "install_user_theme": "Installer l'extension User Themes",
+        "theme_applied": "Thème {theme_type} appliqué avec succès",
+        "error_applying_theme": "Erreur lors de l'application du thème: {error}",
+        "cancel": "Annuler",
+        "applying_shell": "Application du thème du shell {theme}...",
+        "success_shell": "Thème du shell {theme} appliqué avec succès",
+        "error_shell": "Erreur lors de l'application du thème du shell: {error}",
+        "applying_gtk": "Application du thème GTK {theme}...",
+        "success_gtk": "Thème GTK {theme} appliqué avec succès",
+        "error_gtk": "Erreur lors de l'application du thème GTK: {error}",
+        "applying_icons": "Application du thème d'icônes {theme}...",
+        "success_icons": "Thème d'icônes {theme} appliqué avec succès",
+        "error_icons": "Erreur lors de l'application du thème d'icônes: {error}",
+        "restart_required": "Un redémarrage peut être nécessaire pour que les modifications prennent effet",
+        "shell_theme_restart": "Redémarrez GNOME Shell pour voir les modifications",
+        "gtk_theme_restart": "Redémarrez les applications pour voir les modifications",
+        "icon_theme_restart": "Redémarrez les applications pour voir les modifications",
+        "about_title": "À propos de Big Appearance",
+        "about_description": "Personnalisez l'apparence de votre bureau GNOME",
+        "quit_confirm": "Êtes-vous sûr de vouloir quitter?",
+        "quit_confirm_title": "Quitter Big Appearance"
     },
     "de": {
         "window_title": "Big Appearance",
@@ -158,8 +224,30 @@ TRANSLATIONS = {
         "shell_theme": "Shell-Thema",
         "apply_theme": "Thema anwenden",
         "no_themes_found": "Keine Themen gefunden",
-        "license": "MIT-Lizenz",
-        "gnome_only": "Diese Funktion ist nur unter GNOME verfügbar"
+        "license": "GPL-3.0 Lizenz",
+        "gnome_only": "Diese Funktion ist nur unter GNOME verfügbar",
+        "user_theme_required": "Die User Themes-Erweiterung ist erforderlich, um Shell-Themen anzuwenden",
+        "install_user_theme": "User Themes-Erweiterung installieren",
+        "theme_applied": "{theme_type}-Thema erfolgreich angewendet",
+        "error_applying_theme": "Fehler beim Anwenden des Themas: {error}",
+        "cancel": "Abbrechen",
+        "applying_shell": "Wende Shell-Thema {theme} an...",
+        "success_shell": "Shell-Thema {theme} erfolgreich angewendet",
+        "error_shell": "Fehler beim Anwenden des Shell-Themas: {error}",
+        "applying_gtk": "Wende GTK-Thema {theme} an...",
+        "success_gtk": "GTK-Thema {theme} erfolgreich angewendet",
+        "error_gtk": "Fehler beim Anwenden des GTK-Themas: {error}",
+        "applying_icons": "Wende Symbol-Thema {theme} an...",
+        "success_icons": "Symbol-Thema {theme} erfolgreich angewendet",
+        "error_icons": "Fehler beim Anwenden des Symbol-Themas: {error}",
+        "restart_required": "Ein Neustart kann erforderlich sein, damit die Änderungen wirksam werden",
+        "shell_theme_restart": "Starten Sie GNOME Shell neu, um die Änderungen zu sehen",
+        "gtk_theme_restart": "Starten Sie Anwendungen neu, um die Änderungen zu sehen",
+        "icon_theme_restart": "Starten Sie Anwendungen neu, um die Änderungen zu sehen",
+        "about_title": "Über Big Appearance",
+        "about_description": "Passen Sie die Erscheinung Ihres GNOME-Desktops an",
+        "quit_confirm": "Sind Sie sicher, dass Sie beenden möchten?",
+        "quit_confirm_title": "Big Appearance beenden"
     },
     "pt_BR": {
         "window_title": "Big Appearance",
@@ -194,8 +282,30 @@ TRANSLATIONS = {
         "shell_theme": "Tema do Shell",
         "apply_theme": "Aplicar Tema",
         "no_themes_found": "Nenhum tema encontrado",
-        "license": "Licença MIT",
-        "gnome_only": "Este recurso está disponível apenas no GNOME"
+        "license": "Licença GPL-3.0",
+        "gnome_only": "Este recurso está disponível apenas no GNOME",
+        "user_theme_required": "A extensão User Themes é necessária para aplicar temas do shell",
+        "install_user_theme": "Instalar Extensão User Themes",
+        "theme_applied": "Tema {theme_type} aplicado com sucesso",
+        "error_applying_theme": "Erro ao aplicar o tema: {error}",
+        "cancel": "Cancelar",
+        "applying_shell": "Aplicando tema do shell {theme}...",
+        "success_shell": "Tema do shell {theme} aplicado com sucesso",
+        "error_shell": "Erro ao aplicar o tema do shell: {error}",
+        "applying_gtk": "Aplicando tema GTK {theme}...",
+        "success_gtk": "Tema GTK {theme} aplicado com sucesso",
+        "error_gtk": "Erro ao aplicar o tema GTK: {error}",
+        "applying_icons": "Aplicando tema de ícones {theme}...",
+        "success_icons": "Tema de ícones {theme} aplicado com sucesso",
+        "error_icons": "Erro ao aplicar o tema de ícones: {error}",
+        "restart_required": "Pode ser necessário reiniciar para que as alterações tenham efeito",
+        "shell_theme_restart": "Reinicie o GNOME Shell para ver as alterações",
+        "gtk_theme_restart": "Reinicie os aplicativos para ver as alterações",
+        "icon_theme_restart": "Reinicie os aplicativos para ver as alterações",
+        "about_title": "Sobre Big Appearance",
+        "about_description": "Personalize a aparência da sua área de trabalho GNOME",
+        "quit_confirm": "Tem certeza de que deseja sair?",
+        "quit_confirm_title": "Sair do Big Appearance"
     }
 }
 
@@ -288,6 +398,8 @@ class BigAppearanceWindow(Adw.ApplicationWindow):
         # Initialize state variables
         self.applying = False
         self.updating_selection = False  # Flag to prevent selection loops
+        self.selected_item = None
+        self.selected_type = None
         
         # Create UI components
         self.create_ui()
@@ -1159,8 +1271,12 @@ class BigAppearanceWindow(Adw.ApplicationWindow):
                 
                 elif theme_type == "shell":
                     # Check for gnome-shell directory
-                    if os.path.exists(os.path.join(theme_path, "gnome-shell")):
-                        themes.append((theme_dir, theme_path))
+                    shell_dir = os.path.join(theme_path, "gnome-shell")
+                    if os.path.exists(shell_dir):
+                        # Check for required files
+                        if (os.path.exists(os.path.join(shell_dir, "gnome-shell.css")) or
+                            os.path.exists(os.path.join(shell_dir, "gnome-shell.gresource"))):
+                            themes.append((theme_dir, theme_path))
         
         # Remove duplicates and sort
         themes = list(set(themes))
@@ -1169,25 +1285,155 @@ class BigAppearanceWindow(Adw.ApplicationWindow):
         return themes
     
     def apply_theme(self, theme_name, theme_type):
-        """Apply a theme"""
-        try:
-            if theme_type == "gtk":
-                # Apply GTK theme
-                subprocess.run(["gsettings", "set", "org.gnome.desktop.interface", "gtk-theme", theme_name], check=True)
-            
-            elif theme_type == "icons":
-                # Apply icon theme
-                subprocess.run(["gsettings", "set", "org.gnome.desktop.interface", "icon-theme", theme_name], check=True)
-            
-            elif theme_type == "shell":
-                # Apply shell theme
-                subprocess.run(["gsettings", "set", "org.gnome.shell.extensions.user-theme", "name", theme_name], check=True)
-            
-            # Show success message
-            self.show_toast(f"{theme_name} theme applied successfully")
+        """Apply a theme using gsettings"""
+        # Set the selected item and type for compatibility with the provided code
+        self.selected_item = theme_name
+        self.selected_type = theme_type
         
-        except subprocess.CalledProcessError as e:
-            self.show_toast(f"Error applying theme: {str(e)}")
+        # Start applying in a separate thread
+        threading.Thread(target=self._apply_theme_thread, daemon=True).start()
+    
+    def _apply_theme_thread(self):
+        """Apply the selected theme in a separate thread"""
+        try:
+            if self.selected_type == "shell":
+                theme_name = self.selected_item
+                print(f"Applying shell theme: {theme_name}")
+                GLib.idle_add(self.update_status, _("applying_shell").format(theme=theme_name))
+                
+                # Check if User Themes extension is installed and enabled
+                user_theme_uuid = "user-theme@gnome-shell-extensions.gcampax.github.com"
+                
+                if not self.check_extension_installed(user_theme_uuid):
+                    print("User Themes extension is not installed")
+                    GLib.idle_add(self.show_user_theme_dialog)
+                    return
+                
+                if not self.check_extension_enabled(user_theme_uuid):
+                    print("User Themes extension is not enabled")
+                    GLib.idle_add(self.show_user_theme_dialog)
+                    return
+                
+                # Apply shell theme using dconf
+                try:
+                    print(f"Running: dconf write /org/gnome/shell/extensions/user-theme/name '{theme_name}'")
+                    subprocess.run(
+                        ["dconf", "write", "/org/gnome/shell/extensions/user-theme/name", f"'{theme_name}'"],
+                        check=True
+                    )
+                    print("Command completed successfully")
+                    
+                    # Verify the setting
+                    result = subprocess.run(
+                        ["dconf", "read", "/org/gnome/shell/extensions/user-theme/name"],
+                        capture_output=True,
+                        text=True,
+                        check=True
+                    )
+                    current_theme = result.stdout.strip().strip("'").strip('"')
+                    print(f"Current shell theme after setting: {current_theme}")
+                    
+                    if current_theme == theme_name:
+                        GLib.idle_add(self.update_status, _("success_shell").format(theme=theme_name))
+                        GLib.idle_add(self.show_toast, _("shell_theme_restart"))
+                    else:
+                        GLib.idle_add(self.update_status, _("error_shell").format(error=f"Theme not set. Current: {current_theme}"))
+                except subprocess.CalledProcessError as e:
+                    print(f"Error applying shell theme: {e}")
+                    GLib.idle_add(self.update_status, _("error_shell").format(error=str(e)))
+                except Exception as e:
+                    print(f"Unexpected error applying shell theme: {e}")
+                    GLib.idle_add(self.update_status, _("error").format(error=str(e)))
+            
+            elif self.selected_type == "gtk":
+                theme_name = self.selected_item
+                GLib.idle_add(self.update_status, _("applying_gtk").format(theme=theme_name))
+                
+                # Apply GTK theme using dconf
+                try:
+                    print(f"Running: dconf write /org/gnome/desktop/interface/gtk-theme '{theme_name}'")
+                    subprocess.run(
+                        ["dconf", "write", "/org/gnome/desktop/interface/gtk-theme", f"'{theme_name}'"],
+                        check=True
+                    )
+                    
+                    # Verify the setting
+                    result = subprocess.run(
+                        ["dconf", "read", "/org/gnome/desktop/interface/gtk-theme"],
+                        capture_output=True,
+                        text=True,
+                        check=True
+                    )
+                    current_theme = result.stdout.strip().strip("'").strip('"')
+                    print(f"Current GTK theme after setting: {current_theme}")
+                    
+                    if current_theme == theme_name:
+                        GLib.idle_add(self.update_status, _("success_gtk").format(theme=theme_name))
+                        GLib.idle_add(self.show_toast, _("gtk_theme_restart"))
+                    else:
+                        GLib.idle_add(self.update_status, _("error_gtk").format(error=f"Theme not set. Current: {current_theme}"))
+                except subprocess.CalledProcessError as e:
+                    GLib.idle_add(self.update_status, _("error_gtk").format(error=str(e)))
+                except Exception as e:
+                    GLib.idle_add(self.update_status, _("error").format(error=str(e)))
+            
+            elif self.selected_type == "icons":
+                theme_name = self.selected_item
+                GLib.idle_add(self.update_status, _("applying_icons").format(theme=theme_name))
+                
+                # Apply icon theme using dconf
+                try:
+                    print(f"Running: dconf write /org/gnome/desktop/interface/icon-theme '{theme_name}'")
+                    subprocess.run(
+                        ["dconf", "write", "/org/gnome/desktop/interface/icon-theme", f"'{theme_name}'"],
+                        check=True
+                    )
+                    
+                    # Verify the setting
+                    result = subprocess.run(
+                        ["dconf", "read", "/org/gnome/desktop/interface/icon-theme"],
+                        capture_output=True,
+                        text=True,
+                        check=True
+                    )
+                    current_theme = result.stdout.strip().strip("'").strip('"')
+                    print(f"Current icon theme after setting: {current_theme}")
+                    
+                    if current_theme == theme_name:
+                        GLib.idle_add(self.update_status, _("success_icons").format(theme=theme_name))
+                        GLib.idle_add(self.show_toast, _("icon_theme_restart"))
+                    else:
+                        GLib.idle_add(self.update_status, _("error_icons").format(error=f"Theme not set. Current: {current_theme}"))
+                except subprocess.CalledProcessError as e:
+                    GLib.idle_add(self.update_status, _("error_icons").format(error=str(e)))
+                except Exception as e:
+                    GLib.idle_add(self.update_status, _("error").format(error=str(e)))
+            
+        except Exception as e:
+            GLib.idle_add(self.update_status, _("error").format(error=str(e)))
+    
+    def show_user_theme_dialog(self):
+        """Show dialog to install User Themes extension"""
+        dialog = Adw.MessageDialog(
+            transient_for=self,
+            heading=_("user_theme_required"),
+            body=_("user_theme_required"),
+        )
+        
+        dialog.add_response("cancel", _("cancel"))
+        dialog.add_response("install", _("install_user_theme"))
+        dialog.set_response_appearance("install", Adw.ResponseAppearance.SUGGESTED)
+        
+        dialog.connect("response", self.on_user_theme_dialog_response)
+        dialog.present()
+    
+    def on_user_theme_dialog_response(self, dialog, response):
+        """Handle response from User Themes dialog"""
+        if response == "install":
+            # Open extensions.gnome.org for User Themes extension
+            self.open_url("https://extensions.gnome.org/extension/19/user-themes/")
+        
+        dialog.destroy()
     
     def show_toast(self, message):
         """Show a toast notification"""
@@ -1311,7 +1557,7 @@ class BigAppearanceApp(Adw.Application):
         self.add_action(about_action)
         
         quit_action = Gio.SimpleAction.new("quit", None)
-        quit_action.connect("activate", lambda *args: self.quit())
+        quit_action.connect("activate", self.on_quit)
         self.add_action(quit_action)
     
     def on_activate(self, app):
@@ -1331,9 +1577,9 @@ class BigAppearanceApp(Adw.Application):
         about_dialog.set_application_name(_("window_title"))
         about_dialog.set_version("1.0")
         about_dialog.set_developer_name("Big Community & Ari Novais")
-        about_dialog.set_license_type(Gtk.License.MIT)
+        about_dialog.set_license_type(Gtk.License.GPL_3_0)
         about_dialog.set_license(_("license"))
-        about_dialog.set_comments(_("select_layout"))
+        about_dialog.set_comments(_("about_description"))
         about_dialog.set_website("https://communitybig.org/")
         about_dialog.set_issue_url("https://github.com/big-comm/comm-layout-changer/issues")
         
@@ -1345,6 +1591,28 @@ class BigAppearanceApp(Adw.Application):
         
         # Show the about dialog
         about_dialog.present()
+    
+    def on_quit(self, action, param):
+        """Handle quit action with confirmation dialog"""
+        dialog = Adw.MessageDialog(
+            transient_for=self.get_active_window(),
+            heading=_("quit_confirm_title"),
+            body=_("quit_confirm"),
+        )
+        
+        dialog.add_response("cancel", _("cancel"))
+        dialog.add_response("quit", _("quit"))
+        dialog.set_response_appearance("quit", Adw.ResponseAppearance.DESTRUCTIVE)
+        
+        dialog.connect("response", self.on_quit_dialog_response)
+        dialog.present()
+    
+    def on_quit_dialog_response(self, dialog, response):
+        """Handle response from quit confirmation dialog"""
+        if response == "quit":
+            self.quit()
+        
+        dialog.destroy()
 
 if __name__ == "__main__":
     app = BigAppearanceApp()
