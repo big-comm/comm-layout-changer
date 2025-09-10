@@ -12,10 +12,8 @@ depends=(
     'python-reportlab'
     'python-pyenchant'
 )
-makedepends=('')
-optdepends=(
-    
-)
+#makedepends=('')
+#optdepends=('')
 #conflicts=('')
 #provides=('')
 #replaces=('')
