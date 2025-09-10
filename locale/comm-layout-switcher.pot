@@ -3,16 +3,16 @@
 # This file is distributed under the same license as the comm-layout-switcher package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid ""
-msgstr ""
-"Project-Id-Version: comm-layout-switcher\n"
-"Report-Msgid-Bugs-To: \n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: comm-layout-switcher\n"
+        "Report-Msgid-Bugs-To: \n"
+        "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "Language: \n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
@@ -31,8 +31,8 @@ msgstr ""
 # File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 745
 # File: gnome-layouts/gnome-themes.py, line: 204
 # File: gnome-layouts/gnome-themes.py, line: 1180
-msgid "window_title"
-msgstr "window_title"
+msgid   "window_title"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
@@ -45,8 +45,8 @@ msgstr "window_title"
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 277
 # File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 136
 # File: gnome-layouts/gnome-themes.py, line: 277
-msgid "about"
-msgstr "about"
+msgid   "about"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
@@ -59,8 +59,8 @@ msgstr "about"
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 278
 # File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 137
 # File: gnome-layouts/gnome-themes.py, line: 278
-msgid "quit"
-msgstr "quit"
+msgid   "quit"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
@@ -79,8 +79,8 @@ msgstr "quit"
 # File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 749
 # File: gnome-layouts/gnome-themes.py, line: 327
 # File: gnome-layouts/gnome-themes.py, line: 1184
-msgid "select_layout"
-msgstr "select_layout"
+msgid   "select_layout"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
@@ -93,8 +93,8 @@ msgstr "select_layout"
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 388
 # File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 242
 # File: gnome-layouts/gnome-themes.py, line: 388
-msgid "apply"
-msgstr "apply"
+msgid   "apply"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
@@ -107,8 +107,8 @@ msgstr "apply"
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 591
 # File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 428
 # File: gnome-layouts/gnome-themes.py, line: 591
-msgid "description_layout"
-msgstr "description_layout"
+msgid   "description_layout"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
@@ -129,8 +129,8 @@ msgstr "description_layout"
 # File: gnome-layouts/gnome-themes.py, line: 781
 # File: gnome-layouts/gnome-themes.py, line: 892
 # File: gnome-layouts/gnome-themes.py, line: 916
-msgid "error"
-msgstr "error"
+msgid   "error"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
@@ -143,8 +143,8 @@ msgstr "error"
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 746
 # File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 505
 # File: gnome-layouts/gnome-themes.py, line: 746
-msgid "applying"
-msgstr "applying"
+msgid   "applying"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
@@ -157,8 +157,8 @@ msgstr "applying"
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 751
 # File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 510
 # File: gnome-layouts/gnome-themes.py, line: 751
-msgid "error_config"
-msgstr "error_config"
+msgid   "error_config"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
@@ -171,8 +171,8 @@ msgstr "error_config"
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 775
 # File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 525
 # File: gnome-layouts/gnome-themes.py, line: 775
-msgid "success"
-msgstr "success"
+msgid   "success"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
@@ -189,24 +189,24 @@ msgstr "success"
 # File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 529
 # File: gnome-layouts/gnome-themes.py, line: 777
 # File: gnome-layouts/gnome-themes.py, line: 779
-msgid "error_applying"
-msgstr "error_applying"
+msgid   "error_applying"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
 #
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 330
 # File: gnome-layouts/gnome-themes.py, line: 330
-msgid "select_shell_theme"
-msgstr "select_shell_theme"
+msgid   "select_shell_theme"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
 #
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 333
 # File: gnome-layouts/gnome-themes.py, line: 333
-msgid "select_gtk_theme"
-msgstr "select_gtk_theme"
+msgid   "select_gtk_theme"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
@@ -215,40 +215,40 @@ msgstr "select_gtk_theme"
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 485
 # File: gnome-layouts/gnome-themes.py, line: 457
 # File: gnome-layouts/gnome-themes.py, line: 485
-msgid "refresh"
-msgstr "refresh"
+msgid   "refresh"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
 #
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 594
 # File: gnome-layouts/gnome-themes.py, line: 594
-msgid "description_shell"
-msgstr "description_shell"
+msgid   "description_shell"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
 #
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 597
 # File: gnome-layouts/gnome-themes.py, line: 597
-msgid "description_gtk"
-msgstr "description_gtk"
+msgid   "description_gtk"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
 #
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 860
 # File: gnome-layouts/gnome-themes.py, line: 860
-msgid "applying_shell"
-msgstr "applying_shell"
+msgid   "applying_shell"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
 #
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 886
 # File: gnome-layouts/gnome-themes.py, line: 886
-msgid "success_shell"
-msgstr "success_shell"
+msgid   "success_shell"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
@@ -257,24 +257,24 @@ msgstr "success_shell"
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 890
 # File: gnome-layouts/gnome-themes.py, line: 888
 # File: gnome-layouts/gnome-themes.py, line: 890
-msgid "error_shell"
-msgstr "error_shell"
+msgid   "error_shell"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
 #
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 897
 # File: gnome-layouts/gnome-themes.py, line: 897
-msgid "applying_gtk"
-msgstr "applying_gtk"
+msgid   "applying_gtk"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
 #
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 910
 # File: gnome-layouts/gnome-themes.py, line: 910
-msgid "success_gtk"
-msgstr "success_gtk"
+msgid   "success_gtk"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
@@ -283,13 +283,13 @@ msgstr "success_gtk"
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 914
 # File: gnome-layouts/gnome-themes.py, line: 912
 # File: gnome-layouts/gnome-themes.py, line: 914
-msgid "error_gtk"
-msgstr "error_gtk"
+msgid   "error_gtk"
+msgstr  ""
 
 #
 # #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
 #
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 1056
 # File: gnome-layouts/gnome-themes.py, line: 1056
-msgid "no_themes"
-msgstr "no_themes"
+msgid   "no_themes"
+msgstr  ""
