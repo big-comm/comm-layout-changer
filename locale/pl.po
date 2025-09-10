@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-layouts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-layouts\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 204
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 1180
+# File: gnome-layouts/gnome-themes.py, line: 204
+# File: gnome-layouts/gnome-themes.py, line: 1180
+#: NEEDS WORK
+msgid "window_title"
+msgstr "tytuł_okna"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 277
+# File: gnome-layouts/gnome-themes.py, line: 277
+#: NEEDS WORK
+msgid "about"
+msgstr "o programie"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 278
+# File: gnome-layouts/gnome-themes.py, line: 278
+#: NEEDS WORK
+msgid "quit"
+msgstr "wyjdź"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 327
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 1184
+# File: gnome-layouts/gnome-themes.py, line: 327
+# File: gnome-layouts/gnome-themes.py, line: 1184
+#: NEEDS WORK
+msgid "select_layout"
+msgstr "wybierz_układ"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 330
+# File: gnome-layouts/gnome-themes.py, line: 330
+#: NEEDS WORK
+msgid "select_shell_theme"
+msgstr "wybierz_motyw_powłoki"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 333
+# File: gnome-layouts/gnome-themes.py, line: 333
+#: NEEDS WORK
+msgid "select_gtk_theme"
+msgstr "wybierz_motyw_gtk"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 388
+# File: gnome-layouts/gnome-themes.py, line: 388
+#: NEEDS WORK
+msgid "apply"
+msgstr "zastosuj"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 457
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 485
+# File: gnome-layouts/gnome-themes.py, line: 457
+# File: gnome-layouts/gnome-themes.py, line: 485
+#: NEEDS WORK
+msgid "refresh"
+msgstr "odśwież"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 591
+# File: gnome-layouts/gnome-themes.py, line: 591
+#: NEEDS WORK
+msgid "description_layout"
+msgstr "opis_układu"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 594
+# File: gnome-layouts/gnome-themes.py, line: 594
+#: NEEDS WORK
+msgid "description_shell"
+msgstr "opis_powłoki"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 597
+# File: gnome-layouts/gnome-themes.py, line: 597
+#: NEEDS WORK
+msgid "description_gtk"
+msgstr "opis_gtk"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 678
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 781
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 892
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 916
+# File: gnome-layouts/gnome-themes.py, line: 678
+# File: gnome-layouts/gnome-themes.py, line: 781
+# File: gnome-layouts/gnome-themes.py, line: 892
+# File: gnome-layouts/gnome-themes.py, line: 916
+#: NEEDS WORK
+msgid "error"
+msgstr "błąd"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 746
+# File: gnome-layouts/gnome-themes.py, line: 746
+#: NEEDS WORK
+msgid "applying"
+msgstr "zastosowywanie"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 751
+# File: gnome-layouts/gnome-themes.py, line: 751
+#: NEEDS WORK
+msgid "error_config"
+msgstr "błąd_konfiguracji"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 775
+# File: gnome-layouts/gnome-themes.py, line: 775
+#: NEEDS WORK
+msgid "success"
+msgstr "sukces"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 777
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 779
+# File: gnome-layouts/gnome-themes.py, line: 777
+# File: gnome-layouts/gnome-themes.py, line: 779
+#: NEEDS WORK
+msgid "error_applying"
+msgstr "błąd_zastosowania"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 860
+# File: gnome-layouts/gnome-themes.py, line: 860
+#: NEEDS WORK
+msgid "applying_shell"
+msgstr "zastosowywanie_powłoki"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 886
+# File: gnome-layouts/gnome-themes.py, line: 886
+#: NEEDS WORK
+msgid "success_shell"
+msgstr "sukces_shell"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 888
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 890
+# File: gnome-layouts/gnome-themes.py, line: 888
+# File: gnome-layouts/gnome-themes.py, line: 890
+#: NEEDS WORK
+msgid "error_shell"
+msgstr "błąd_powłoki"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 897
+# File: gnome-layouts/gnome-themes.py, line: 897
+#: NEEDS WORK
+msgid "applying_gtk"
+msgstr "aplikowanie_gtk"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 910
+# File: gnome-layouts/gnome-themes.py, line: 910
+#: NEEDS WORK
+msgid "success_gtk"
+msgstr "sukces_gtk"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 912
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 914
+# File: gnome-layouts/gnome-themes.py, line: 912
+# File: gnome-layouts/gnome-themes.py, line: 914
+#: NEEDS WORK
+msgid "error_gtk"
+msgstr "błąd_gtk"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 1056
+# File: gnome-layouts/gnome-themes.py, line: 1056
+#: NEEDS WORK
+msgid "no_themes"
+msgstr "brak_motywów"
