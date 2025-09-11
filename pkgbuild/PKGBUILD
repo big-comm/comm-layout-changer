@@ -19,21 +19,6 @@ depends=(
 #replaces=('')
 pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
-pkgname=comm-layout-changer
-pkgdesc="App to apply pre-customized desktop layouts for GNOME"
-pkgver=1.0.0
-pkgrel=1
-arch=('any')
-license=('MIT')
-url="https://github.com/big-comm/${pkgname}"
-depends=('python' 'python-gobject' 'python-cairo' 'libadwaita' 'dconf' 'hicolor-icon-theme')
-makedepends=('git' 'python-setuptools')
-optdepends=('gnome-shell: for GNOME desktop support'
-            'cinnamon: for Cinnamon desktop support'
-            'xfce4-panel: for XFCE desktop support')
-conflicts=()
-provides=()
-replaces=('comm-layout-changer')
 source=("git+${url}.git")
 md5sums=('SKIP')
 
