@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Community's Layout Switcher
+Name=Community Layout Switcher
 Name[pt]=Alternador de Layouts da Community
 Name[es]=Cambiador de Diseños de Community
 Name[fr]=Commutateur de Disposition de Community
@@ -28,13 +28,13 @@ Terminal=false
 Icon=/usr/share/comm-layout-switcher/icons/comm-layout-switcher.svg
 Type=Application
 Categories=Settings;DesktopSettings;GNOME;GTK;
-Keywords=desktop;theme;layout;effects;switcher;gnome;gui;
-Keywords[pt]=área de trabalho;tema;layout;efeitos;alternador;gnome;interface;
-Keywords[es]=escritorio;tema;diseño;efectos;alternador;gnome;interfaz;
-Keywords[fr]=bureau;thème;disposition;effets;sélecteur;gnome;interface;
-Keywords[de]=desktop;thema;layout;effekte;wechsler;gnome;gui;
-Keywords[it]=desktop;tema;layout;effetti;selettore;gnome;gui;
-Keywords[ru]=рабочий стол;тема;макет;эффекты;переключатель;gnome;gui;
+Keywords=desktop;theme;layout;effects;switcher;gnome;gui;big;
+Keywords[pt]=área de trabalho;tema;layout;efeitos;alternador;gnome;interface;big;
+Keywords[es]=escritorio;tema;diseño;efectos;alternador;big;gnome;interfaz;big;
+Keywords[fr]=bureau;thème;disposition;effets;sélecteur;gnome;interface;big;
+Keywords[de]=desktop;thema;layout;effekte;wechsler;gnome;gui;big;
+Keywords[it]=desktop;tema;layout;effetti;selettore;gnome;gui;big;
+Keywords[ru]=рабочий стол;тема;макет;эффекты;переключатель;gnome;gui;big;
 Keywords[zh_CN]=桌面;主题;布局;效果;切换器;gnome;图形界面;
 StartupNotify=true
 StartupWMClass=org.communitybig.comm-layout-switcher
