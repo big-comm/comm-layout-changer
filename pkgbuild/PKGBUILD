@@ -19,21 +19,8 @@ depends=(
 #replaces=('')
 pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
-pkgname=comm-layout-changer
-pkgdesc="App to apply pre-customized desktop layouts for GNOME"
-pkgver=1.0.0
-pkgrel=1
 arch=('any')
-license=('MIT')
 url="https://github.com/big-comm/${pkgname}"
-depends=('python' 'python-gobject' 'python-cairo' 'libadwaita' 'dconf' 'hicolor-icon-theme')
-makedepends=('git' 'python-setuptools')
-optdepends=('gnome-shell: for GNOME desktop support'
-            'cinnamon: for Cinnamon desktop support'
-            'xfce4-panel: for XFCE desktop support')
-conflicts=()
-provides=()
-replaces=('comm-gnome-themes')
 source=("git+${url}.git")
 md5sums=('SKIP')
 
@@ -80,25 +67,17 @@ package() {
     install -d "${pkgdir}/usr/share/doc/${pkgname}"
     
     # Install the main application
-    install -Dm755 "${srcdir}/comm-layout-changer.py" "${pkgdir}/usr/share/${pkgname}/"
+    install -Dm755 "${srcdir}/comm-layout-switcher.py" "${pkgdir}/usr/share/${pkgname}/"
     
     # Install desktop entry
-    install -Dm644 "${srcdir}/comm-layout-changer.desktop" "${pkgdir}/usr/share/applications/"
+    install -Dm644 "${srcdir}/comm-layout-switcher.desktop" "${pkgdir}/usr/share/applications/"
     
     # Install icon
-    install -Dm644 "${srcdir}/icons/comm-layout-changer.svg" "${pkgdir}/usr/share/icons/hicolor/scalable/apps/"
+    install -Dm644 "${srcdir}/icons/hicolor/scalable/comm-layout-switcher.svg" "${pkgdir}/usr/share/icons/hicolor/scalable/apps/"
     
     # Install layout configuration files
-    if [ -d "${srcdir}/gnome-layouts" ]; then
-        cp -a "${srcdir}/gnome-layouts" "${pkgdir}/usr/share/${pkgname}/"
-    fi
-    
-    if [ -d "${srcdir}/cinnamon-layouts" ]; then
-        cp -a "${srcdir}/cinnamon-layouts" "${pkgdir}/usr/share/${pkgname}/"
-    fi
-    
-    if [ -d "${srcdir}/xfce-layouts" ]; then
-        cp -a "${srcdir}/xfce-layouts" "${pkgdir}/usr/share/${pkgname}/"
+    if [ -d "${srcdir}/layouts" ]; then
+        cp -a "${srcdir}/layouts" "${pkgdir}/usr/share/${pkgname}/"
     fi
     
     # Install license file if present

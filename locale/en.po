@@ -1,21 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-
-
-# This file is distributed under the same license as the gnome-layouts package.
-
-# This file is distributed under the same license as the comm-layout-changer package.
+# This file is distributed under the same license as the comm-layout-switcher package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-
+#
 msgid ""
 msgstr ""
-
 "Project-Id-Version: comm-layout-switcher\n"
-
-
-"Project-Id-Version: gnome-layouts\n"
-
-"Project-Id-Version: comm-layout-changer\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,436 +14,424 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
-
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
-
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 144
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 261
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 828
-
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 144
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 261
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 828
-
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
-
-
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 204
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 1180
-# File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 61
-# File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 178
-# File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 745
-msgid "window_title"
-msgstr "window_title"
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 693
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 794
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 2157
+msgid "app_name"
+msgstr "app_name"
 
 #
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 759
+msgid "intro_title"
+msgstr "intro_title"
 
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
 #
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 760
+msgid "intro_message"
+msgstr "intro_message"
+
 #
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 219
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 763
+msgid "close"
+msgstr "close"
 
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 767
+msgid "intro_dont_show"
+msgstr "intro_dont_show"
 
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 804
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 2213
+msgid "backup_restore"
+msgstr "backup_restore"
 
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 219
-
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
-
-
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 277
-# File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 136
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 805
 msgid "about"
 msgstr "about"
 
-
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
-
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
 #
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 220
-
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 220
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 278
-# File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 137
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 806
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 2184
 msgid "quit"
 msgstr "quit"
 
 #
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 823
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 868
+msgid "layouts_tab"
+msgstr "layouts_tab"
 
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
 #
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
-#
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 268
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 363
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 832
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 826
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1425
+msgid "effects_tab"
+msgstr "effects_tab"
 
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 829
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1677
+msgid "themes_tab"
+msgstr "themes_tab"
 
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 #
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 268
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 363
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 832
-
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
-#
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 327
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 1184
-# File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 185
-# File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 280
-# File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 749
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 876
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 979
 msgid "select_layout"
 msgstr "select_layout"
 
 #
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 936
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1187
+msgid "test_layout"
+msgstr "test_layout"
 
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
-=======
-
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 #
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 325
-=======
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
-#
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 330
-# File: gnome-layouts/gnome-themes.py, line: 330
-msgid "select_shell_theme"
-msgstr "select_shell_theme"
-
-
-
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
-
-
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 325
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 388
-# File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 242
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 943
 msgid "apply"
 msgstr "apply"
 
-
-
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
-
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 #
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 511
-
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
-#
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 457
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 485
-# File: gnome-layouts/gnome-themes.py, line: 457
-# File: gnome-layouts/gnome-themes.py, line: 485
-msgid "refresh"
-msgstr "refresh"
-
-
-#
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
-#
-
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 511
-=======
-
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 591
-# File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 428
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1135
 msgid "description_layout"
 msgstr "description_layout"
 
 #
-
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
-=======
-
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 580
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 614
-=======
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
-#
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 594
-# File: gnome-layouts/gnome-themes.py, line: 594
-msgid "description_shell"
-msgstr "description_shell"
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1182
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1299
+msgid "test_layout_title"
+msgstr "test_layout_title"
 
 #
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
-#
-
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 580
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 614
-=======
-
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 678
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 781
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 892
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 916
-# File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 497
-# File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 531
-msgid "error"
-msgstr "error"
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1183
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1300
+msgid "test_layout_message"
+msgstr "test_layout_message"
 
 #
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1186
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1395
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1999
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 2183
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 2212
+msgid "cancel"
+msgstr "cancel"
 
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
 #
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
-#
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 588
-=======
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1215
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1216
+msgid "backup_before_apply"
+msgstr "backup_before_apply"
 
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 #
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 588
-=======
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1219
+msgid "skip"
+msgstr "skip"
 
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 746
-# File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 505
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1220
+msgid "backup"
+msgstr "backup"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1240
+msgid "backup_created"
+msgstr "backup_created"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1242
+msgid "backup_error"
+msgstr "backup_error"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1242
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1319
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1410
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 2225
+msgid "unknown"
+msgstr "unknown"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1265
 msgid "applying"
 msgstr "applying"
 
 #
-
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
-#
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
-#
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 593
-=======
-
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 593
-=======
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
-#
-
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 751
-# File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 510
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1270
 msgid "error_config"
 msgstr "error_config"
 
 #
-
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
-#
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
-#
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 608
-=======
-
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 608
-=======
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
-#
-
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 775
-# File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 525
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1279
 msgid "success"
 msgstr "success"
 
 #
-
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
-#
-# #-#-#-#-#  comm-layout-switcher.pot (comm-layout-switcher)  #-#-#-#-#
-#
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 610
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 612
-=======
-
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 610
-# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 612
-=======
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
-#
-
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 777
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 779
-# File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 527
-# File: usr/comm-layout-switcher/comm-layout-switcher.py, line: 529
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1286
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1288
 msgid "error_applying"
 msgstr "error_applying"
 
 #
-
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 330
-=======
-
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 330
-# File: gnome-layouts/gnome-themes.py, line: 330
-
-msgid "select_shell_theme"
-msgstr "select_shell_theme"
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1290
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1922
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1954
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1986
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1989
+msgid "error"
+msgstr "error"
 
 #
-
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 333
-=======
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 333
-# File: gnome-layouts/gnome-themes.py, line: 333
-msgid "select_gtk_theme"
-msgstr "select_gtk_theme"
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1303
+msgid "test_layout_revert"
+msgstr "test_layout_revert"
 
 #
-
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 457
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 485
-=======
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 457
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 485
-# File: gnome-layouts/gnome-themes.py, line: 457
-# File: gnome-layouts/gnome-themes.py, line: 485
-
-msgid "refresh"
-msgstr "refresh"
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1304
+msgid "test_layout_keep"
+msgstr "test_layout_keep"
 
 #
-
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 594
-=======
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 594
-# File: gnome-layouts/gnome-themes.py, line: 594
-
-msgid "description_shell"
-msgstr "description_shell"
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1317
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 2223
+msgid "backup_restore_success"
+msgstr "backup_restore_success"
 
 #
-
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 597
-msgid "description_gtk"
-msgstr "description_gtk"
-
-=======
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-#
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 597
-# File: gnome-layouts/gnome-themes.py, line: 597
-msgid "description_gtk"
-msgstr "description_gtk"
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1319
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 2203
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 2225
+msgid "backup_restore_error"
+msgstr "backup_restore_error"
 
 #
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-=======
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1391
+msgid "extensions_disabled"
+msgstr "extensions_disabled"
 
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 860
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1392
+msgid "extensions_enable_prompt"
+msgstr "extensions_enable_prompt"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1396
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1549
+msgid "enable"
+msgstr "enable"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1406
+msgid "extensions_enabled_success"
+msgstr "extensions_enabled_success"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1410
+msgid "extensions_enable_error"
+msgstr "extensions_enable_error"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1433
+msgid "effects_description"
+msgstr "effects_description"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1453
+msgid "gnome_only"
+msgstr "gnome_only"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1473
+msgid "desktop_cube"
+msgstr "desktop_cube"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1474
+msgid "desktop_cube_description"
+msgstr "desktop_cube_description"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1479
+msgid "magic_lamp"
+msgstr "magic_lamp"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1480
+msgid "magic_lamp_description"
+msgstr "magic_lamp_description"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1485
+msgid "windows_effects"
+msgstr "windows_effects"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1486
+msgid "windows_effects_description"
+msgstr "windows_effects_description"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1491
+msgid "desktop_icons"
+msgstr "desktop_icons"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1492
+msgid "desktop_icons_description"
+msgstr "desktop_icons_description"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1549
+msgid "disable"
+msgstr "disable"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1559
+msgid "extension_settings"
+msgstr "extension_settings"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1566
+msgid "install_extension"
+msgstr "install_extension"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1685
+msgid "themes_description"
+msgstr "themes_description"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1697
+msgid "gtk_theme"
+msgstr "gtk_theme"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1702
+msgid "icon_theme"
+msgstr "icon_theme"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1707
+msgid "shell_theme"
+msgstr "shell_theme"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1737
+msgid "no_themes_found"
+msgstr "no_themes_found"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1784
+msgid "apply_theme"
+msgstr "apply_theme"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1878
 msgid "applying_shell"
 msgstr "applying_shell"
 
 #
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-=======
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
-
-#
-
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 886
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1913
 msgid "success_shell"
 msgstr "success_shell"
 
 #
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-=======
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1914
+msgid "shell_theme_restart"
+msgstr "shell_theme_restart"
 
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 888
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 890
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1916
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1919
 msgid "error_shell"
 msgstr "error_shell"
 
 #
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-=======
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
-
-#
-
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 897
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1926
 msgid "applying_gtk"
 msgstr "applying_gtk"
 
 #
-
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-=======
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
-
-#
-
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 910
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1947
 msgid "success_gtk"
 msgstr "success_gtk"
 
 #
-
-=======
-
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-=======
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1948
+msgid "gtk_theme_restart"
+msgstr "gtk_theme_restart"
 
 #
-
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 912
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 914
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1950
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1952
 msgid "error_gtk"
 msgstr "error_gtk"
 
 #
-# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
-=======
-# #-#-#-#-#  comm-layout-changer.pot (comm-layout-changer)  #-#-#-#-#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1958
+msgid "applying_icons"
+msgstr "applying_icons"
 
 #
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1979
+msgid "success_icons"
+msgstr "success_icons"
 
-# File: usr/share/gnome-layouts/gnome-themes.py, line: 1056
-msgid "no_themes"
-msgstr "no_themes"
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1980
+msgid "icon_theme_restart"
+msgstr "icon_theme_restart"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1982
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1984
+msgid "error_icons"
+msgstr "error_icons"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1995
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 1996
+msgid "user_theme_required"
+msgstr "user_theme_required"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 2000
+msgid "install_user_theme"
+msgstr "install_user_theme"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 2161
+msgid "license"
+msgstr "license"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 2162
+msgid "about_description"
+msgstr "about_description"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 2179
+msgid "quit_confirm_title"
+msgstr "quit_confirm_title"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 2180
+msgid "quit_confirm"
+msgstr "quit_confirm"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 2203
+msgid "No backup found"
+msgstr "No backup found"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 2208
+msgid "backup_restore_title"
+msgstr "backup_restore_title"
+
+#
+# File: usr/share/comm-layout-switcher/comm-layout-switcher.py, line: 2209
+msgid "backup_restore_message"
+msgstr "backup_restore_message"
