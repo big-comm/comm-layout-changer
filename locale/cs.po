@@ -17,6 +17,14 @@ msgstr ""
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+<<<<<<< HEAD
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 144
+# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 261
+# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 828
+=======
+>>>>>>> 2746807e73d3f2e61bc4d116a105e8c70f57feef
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 204
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 1180
 # File: gnome-layouts/gnome-themes.py, line: 204
@@ -27,6 +35,12 @@ msgstr "název_okna"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+<<<<<<< HEAD
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 219
+=======
+>>>>>>> 2746807e73d3f2e61bc4d116a105e8c70f57feef
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 277
 # File: gnome-layouts/gnome-themes.py, line: 277
 #: NEEDS WORK
@@ -35,6 +49,12 @@ msgstr "o aplikaci"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+<<<<<<< HEAD
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 220
+=======
+>>>>>>> 2746807e73d3f2e61bc4d116a105e8c70f57feef
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 278
 # File: gnome-layouts/gnome-themes.py, line: 278
 #: NEEDS WORK
@@ -43,6 +63,14 @@ msgstr "ukončit"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+<<<<<<< HEAD
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 268
+# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 363
+# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 832
+=======
+>>>>>>> 2746807e73d3f2e61bc4d116a105e8c70f57feef
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 327
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 1184
 # File: gnome-layouts/gnome-themes.py, line: 327
@@ -53,6 +81,96 @@ msgstr "vybrat_rozložení"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+<<<<<<< HEAD
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 325
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 388
+# File: gnome-layouts/gnome-themes.py, line: 388
+#: NEEDS WORK
+msgid "apply"
+msgstr "použít"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 511
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 591
+# File: gnome-layouts/gnome-themes.py, line: 591
+#: NEEDS WORK
+msgid "description_layout"
+msgstr "popis_uspořádání"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 580
+# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 614
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 678
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 781
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 892
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 916
+# File: gnome-layouts/gnome-themes.py, line: 678
+# File: gnome-layouts/gnome-themes.py, line: 781
+# File: gnome-layouts/gnome-themes.py, line: 892
+# File: gnome-layouts/gnome-themes.py, line: 916
+#: NEEDS WORK
+msgid "error"
+msgstr "chyba"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 588
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 746
+# File: gnome-layouts/gnome-themes.py, line: 746
+#: NEEDS WORK
+msgid "applying"
+msgstr "aplikování"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 593
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 751
+# File: gnome-layouts/gnome-themes.py, line: 751
+#: NEEDS WORK
+msgid "error_config"
+msgstr "chyba_konfigurace"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 608
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 775
+# File: gnome-layouts/gnome-themes.py, line: 775
+#: NEEDS WORK
+msgid "success"
+msgstr "úspěch"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 610
+# File: usr/share/comm-layout-changer/comm-layout-changer.py, line: 612
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 777
+# File: usr/share/gnome-layouts/gnome-themes.py, line: 779
+# File: gnome-layouts/gnome-themes.py, line: 777
+# File: gnome-layouts/gnome-themes.py, line: 779
+#: NEEDS WORK
+msgid "error_applying"
+msgstr "chyba_při_aplikaci"
+# 
+# #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
+# 
+=======
+>>>>>>> 2746807e73d3f2e61bc4d116a105e8c70f57feef
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 330
 # File: gnome-layouts/gnome-themes.py, line: 330
 #: NEEDS WORK
@@ -69,6 +187,8 @@ msgstr "vybrat_gtk_téma"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+<<<<<<< HEAD
+=======
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 388
 # File: gnome-layouts/gnome-themes.py, line: 388
 #: NEEDS WORK
@@ -77,6 +197,7 @@ msgstr "použít"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+>>>>>>> 2746807e73d3f2e61bc4d116a105e8c70f57feef
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 457
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 485
 # File: gnome-layouts/gnome-themes.py, line: 457
@@ -87,6 +208,8 @@ msgstr "obnovit"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+<<<<<<< HEAD
+=======
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 591
 # File: gnome-layouts/gnome-themes.py, line: 591
 #: NEEDS WORK
@@ -95,6 +218,7 @@ msgstr "popis_uspořádání"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+>>>>>>> 2746807e73d3f2e61bc4d116a105e8c70f57feef
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 594
 # File: gnome-layouts/gnome-themes.py, line: 594
 #: NEEDS WORK
@@ -111,6 +235,8 @@ msgstr "popis_gtk"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+<<<<<<< HEAD
+=======
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 678
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 781
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 892
@@ -159,6 +285,7 @@ msgstr "chyba_při_aplikaci"
 # 
 # #-#-#-#-#  gnome-layouts.pot (gnome-layouts)  #-#-#-#-#
 # 
+>>>>>>> 2746807e73d3f2e61bc4d116a105e8c70f57feef
 # File: usr/share/gnome-layouts/gnome-themes.py, line: 860
 # File: gnome-layouts/gnome-themes.py, line: 860
 #: NEEDS WORK

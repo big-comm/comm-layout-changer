@@ -177,9 +177,6 @@ play-audio-on-copy=false
 send-notification-on-copy=false
 show-indicator=true
 
-[extensions/user-theme]
-name='Big-Blue'
-
 [keybindings]
 toggle-message-tray=['<Super>e']
 
