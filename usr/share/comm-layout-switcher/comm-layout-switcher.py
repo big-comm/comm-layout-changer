@@ -848,12 +848,12 @@ class BigAppearanceWindow(Adw.ApplicationWindow):
         """Create the Layouts tab"""
         # Define layouts for GNOME
         layouts = [
-            ("Classic", "classic.txt", "classic.png", "view-continuous-symbolic"),
-            ("Vanilla", "vanilla.txt", "vanilla.png", "view-grid-symbolic"),
-            ("G-Unity", "g-unity.txt", "g-unity.png", "view-app-grid-symbolic"),
-            ("New", "new.txt", "new.png", "view-paged-symbolic"),
-            ("Next-Gnome", "next-gnome.txt", "next-gnome.png", "view-paged-symbolic"),
-            ("Modern", "modern.txt", "modern.png", "view-grid-symbolic")
+            ("Classic", "classic.txt", "classic.svg", "view-continuous-symbolic"),
+            ("Vanilla", "vanilla.txt", "vanilla.svg", "view-grid-symbolic"),
+            ("G-Unity", "g-unity.txt", "g-unity.svg", "view-app-grid-symbolic"),
+            ("New", "new.txt", "new.svg", "view-paged-symbolic"),
+            ("Next-Gnome", "next-gnome.txt", "next-gnome.svg", "view-paged-symbolic"),
+            ("Modern", "modern.txt", "modern.svg", "view-grid-symbolic")
         ]
         
         # Create main container
