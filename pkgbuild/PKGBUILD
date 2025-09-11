@@ -33,7 +33,7 @@ optdepends=('gnome-shell: for GNOME desktop support'
             'xfce4-panel: for XFCE desktop support')
 conflicts=()
 provides=()
-replaces=('comm-gnome-themes')
+replaces=('comm-layout-changer')
 source=("git+${url}.git")
 md5sums=('SKIP')
 
