@@ -23,6 +23,7 @@ Comment[de]=Eine GUI zum Wechseln von Desktop-Layouts und -Themen für GNOME, Ci
 Comment[it]=Una GUI per cambiare layout e temi del desktop per GNOME, Cinnamon e XFCE
 Comment[ru]=Графический интерфейс для переключения макетов и тем рабочего стола для GNOME, Cinnamon и XFCE
 Comment[zh_CN]=用于切换 GNOME、Cinnamon 和 XFCE 桌面布局和主题的图形界面
+Exec=comm-layout-switcher
 Terminal=false
 Icon=comm-layout-switcher
 Type=Application
@@ -36,8 +37,5 @@ Keywords[it]=desktop;tema;layout;selettore;gui;
 Keywords[ru]=рабочий стол;тема;макет;переключатель;gui;
 Keywords[zh_CN]=桌面;主题;布局;切换器;图形界面;
 StartupNotify=true
-StartupWMClass=org.bigCommunity.comm-layout-switcher-gnome
-Actions=SoftwareRender;
-[Desktop Action SoftwareRender]
-Name=Software Render
-Exec=comm-layout-switcher
+StartupWMClass=comm-layout-switcher
+
