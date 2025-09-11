@@ -3,8 +3,6 @@ app-picker-layout=[{'BigApps': <{'position': <0>}>, 'AudioVideo': <{'position': 
 command-history=['ajustes', 'r']
 disabled-extensions=['ddterm@amezin.github.com', 'just-perfection-desktop@just-perfection', 'GPaste@gnome-shell-extensions.gnome.org', 'dash-to-dock@micxgx.gmail.com']
 enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'CoverflowAltTab@dmo60.de', 'gsconnect@andyholmes.github.io', 'pamac-updates@manjaro.org', 'blur-my-shell@aunetx', 'legacyschemeautoswitcher@joshimukul29.gmail.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'pano@elhan.io', 'dash-to-panel@jderose9.github.com', 'arcmenu@arcmenu.com']
-favorite-apps=['org.gnome.Nautilus.desktop', 'brave-browser.desktop', 'org.gnome.Console.desktop']
-welcome-dialog-last-shown-version='43.2'
 
 [ca/desrt/dconf-editor]
 saved-pathbar-path='notif'
@@ -100,6 +98,8 @@ preferred-monitor=-2
 preferred-monitor-by-connector='HDMI-1'
 pressure-threshold=100.0
 require-pressure-to-show=true
+running-indicator-dominant-color=true
+running-indicator-style='DOTS'
 scroll-action='switch-workspace'
 show-mounts=false
 transparency-mode='FIXED'
@@ -108,8 +108,12 @@ transparency-mode='FIXED'
 animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
 appicon-margin=4
 appicon-padding=8
+dot-color-dominant=true
+dot-color-override=false
+dot-color-unfocused-different=false
 dot-position='BOTTOM'
 extension-version=68
+focus-highlight-dominant=true
 global-border-radius=4
 group-apps=true
 hotkeys-overlay-combo='TEMPORARILY'
@@ -276,6 +280,7 @@ show-desktop-icons=true
 
 [org/gnome/desktop/input-sources]
 sources=[('xkb', 'us+intl')]
+xkb-options=['terminate:ctrl_alt_bksp']
 
 [org/gnome/desktop/notifications]
 application-children=['org-gnome-console', 'gnome-power-panel', 'org-gnome-texteditor', 'org-gnome-nautilus', 'xed', 'org-telegram-desktop', 'org-gnome-characters', 'org-gnome-baobab', 'org-gnome-geary', 'org-gnome-shell-extensions-gsconnect', 'org-gnome-evolution-alarm-notify', 'org-telegram-desktop-c0823a45162f757ca989890a954691d3']
@@ -394,7 +399,6 @@ night-light-schedule-from=20.0
 app-picker-layout=[{'org.gnome.Geary.desktop': <{'position': <0>}>, 'org.gnome.Contacts.desktop': <{'position': <1>}>, 'org.gnome.Weather.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'org.gnome.Maps.desktop': <{'position': <4>}>, 'org.gnome.Totem.desktop': <{'position': <5>}>, 'org.gnome.Calculator.desktop': <{'position': <6>}>, 'simple-scan.desktop': <{'position': <7>}>, 'org.gnome.Settings.desktop': <{'position': <8>}>, 'org.gnome.SystemMonitor.desktop': <{'position': <9>}>, 'Utilities': <{'position': <10>}>, 'yelp.desktop': <{'position': <11>}>, 'waydroid.com.android.inputmethod.latin.desktop': <{'position': <12>}>, 'nemo.desktop': <{'position': <13>}>, 'waydroid.org.lineageos.jelly.desktop': <{'position': <14>}>, 'waydroid.com.android.calculator2.desktop': <{'position': <15>}>, 'waydroid.org.lineageos.etar.desktop': <{'position': <16>}>, 'org.gnome.Calendar.desktop': <{'position': <17>}>, 'waydroid.com.android.camera2.desktop': <{'position': <18>}>, 'org.gnome.Snapshot.desktop': <{'position': <19>}>, 'waydroid.com.android.deskclock.desktop': <{'position': <20>}>, 'waydroid.com.android.contacts.desktop': <{'position': <21>}>, 'ca.desrt.dconf-editor.desktop': <{'position': <22>}>, 'xed.desktop': <{'position': <23>}>}, {'cups.desktop': <{'position': <0>}>, 'waydroid.com.android.vending.desktop': <{'position': <1>}>, 'htop.desktop': <{'position': <2>}>, 'jamesdsp.desktop': <{'position': <3>}>, 'startcenter.desktop': <{'position': <4>}>, 'base.desktop': <{'position': <5>}>, 'calc.desktop': <{'position': <6>}>, 'draw.desktop': <{'position': <7>}>, 'impress.desktop': <{'position': <8>}>, 'math.desktop': <{'position': <9>}>, 'writer.desktop': <{'position': <10>}>, 'waydroid.org.lineageos.eleven.desktop': <{'position': <11>}>, 'org.gnome.Music.desktop': <{'position': <12>}>, 'nixos-manual.desktop': <{'position': <13>}>, 'nvtop.desktop': <{'position': <14>}>, 'waydroid.org.lineageos.recorder.desktop': <{'position': <15>}>, 'waydroid.com.android.settings.desktop': <{'position': <16>}>, 'org.gnome.Tour.desktop': <{'position': <17>}>, 'code.desktop': <{'position': <18>}>, 'Waydroid.desktop': <{'position': <19>}>, 'org.gnome.Epiphany.desktop': <{'position': <20>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <21>}>, 'waydroid.com.android.gallery3d.desktop': <{'position': <22>}>, 'firefox.desktop': <{'position': <23>}>}, {'waydroid.com.android.documentsui.desktop': <{'position': <0>}>, 'org.gnome.Extensions.desktop': <{'position': <1>}>, 'org.gnome.TextEditor.desktop': <{'position': <2>}>, 'org.kde.dolphin.desktop': <{'position': <3>}>, 'com.obsproject.Studio.desktop': <{'position': <4>}>, 'gimp.desktop': <{'position': <5>}>, 'dev.vlinkz.NixSoftwareCenter.desktop': <{'position': <6>}>}]
 disabled-extensions=['auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'window-list@gnome-shell-extensions.gcampax.github.com', 'vertical-workspaces@G-dH.github.com', 'arcmenu@arcmenu.com', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'just-perfection-desktop@just-perfection', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com']
 enabled-extensions=['pano@elhan.io', 'gsconnect@andyholmes.github.io', 'dash-to-panel@jderose9.github.com', 'light-style@gnome-shell-extensions.gcampax.github.com', 'gtk4-ding@smedius.gitlab.com', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'trayIconsReloaded@selfmade.pl', 'appindicatorsupport@rgcjonas.gmail.com']
-favorite-apps=['org.gnome.Nautilus.desktop', 'org.telegram.desktop.desktop', 'google-chrome.desktop', 'org.gnome.Console.desktop']
 last-selected-power-profile='power-saver'
 remember-mount-password=false
 welcome-dialog-last-shown-version='47.2'
