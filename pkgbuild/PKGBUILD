@@ -51,40 +51,27 @@ check() {
 
 package() {
     cd "${srcdir}/${pkgname}"
-    
+
     # Determine the correct source directory
     if [ -d "${pkgname}" ]; then
         srcdir="${srcdir}/${pkgname}/${pkgname}"
     else
         srcdir="${srcdir}/${pkgname}"
     fi
-    
-    # Create directories
-    install -d "${pkgdir}/usr/share/${pkgname}"
-    install -d "${pkgdir}/usr/share/applications"
-    install -d "${pkgdir}/usr/share/icons/hicolor/scalable/apps"
-    install -d "${pkgdir}/usr/share/licenses/${pkgname}"
-    install -d "${pkgdir}/usr/share/doc/${pkgname}"
-    
-    # Install the main application
-    install -Dm755 "${srcdir}/comm-layout-switcher.py" "${pkgdir}/usr/share/${pkgname}/"
-    
-    # Install desktop entry
-    install -Dm644 "${srcdir}/comm-layout-switcher.desktop" "${pkgdir}/usr/share/applications/"
-    
-    # Install icon
-    install -Dm644 "${srcdir}/icons/hicolor/scalable/comm-layout-switcher.svg" "${pkgdir}/usr/share/icons/hicolor/scalable/apps/"
-    
-    # Install layout configuration files
-    if [ -d "${srcdir}/layouts" ]; then
-        cp -a "${srcdir}/layouts" "${pkgdir}/usr/share/${pkgname}/"
-    fi
-    
+
+    # Install files
+    local dirs=("usr" "etc" "opt")
+    for dir in "${dirs[@]}"; do
+        if [ -d "${srcdir}/${dir}" ]; then
+            cp -a "${srcdir}/${dir}" "${pkgdir}/"
+        fi
+    done
+
     # Install license file if present
     if [ -f "LICENSE" ]; then
         install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
     fi
-    
+
     # Install documentation if present
     if [ -f "README.md" ]; then
         install -Dm644 README.md "${pkgdir}/usr/share/doc/${pkgname}/README.md"
